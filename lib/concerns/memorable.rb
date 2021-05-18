@@ -2,7 +2,7 @@ module Memorable
   module ClassMethods
     
     def all
-      self.all
+      self.class.all
     end
 
     def reset_all
