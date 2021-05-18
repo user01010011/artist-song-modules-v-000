@@ -3,8 +3,8 @@ module Memorable
     
     def all
       self.all
-    end 
-    
+    end
+
     def reset_all
       self.all.clear
     end
