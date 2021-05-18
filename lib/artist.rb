@@ -6,7 +6,6 @@ class Artist
 
   extend Memorable::ClassMethods
   extend Findable::ClassMethods
-  include Memorable::InstanceMethods
   include Findable::InstanceMethods
   include Paramable::InstanceMethods
 
