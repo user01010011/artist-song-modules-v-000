@@ -12,13 +12,13 @@ class Artist
   @@artists = []
 
   def initialize
-    @@artists << self
+    self.class.all << self
     @songs = []
   end
 
-  def self.all
-    @@artists
-  end
+  # def self.all
+  #   @@artists
+  # end
 
   # def find_by_name(name)
   #   @@artists.detect{|a| a.name == name}
